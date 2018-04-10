@@ -1,9 +1,8 @@
 package com.placeworkers.tools;
 
-import java.io.IOException;
 
 public class Amnestie1 {
-	public static void main(String[] args) throws IOException, InterruptedException {
+	public static void main(String[] args) {
 
 		int i = 2;
 		int geoeffnet = 1;
