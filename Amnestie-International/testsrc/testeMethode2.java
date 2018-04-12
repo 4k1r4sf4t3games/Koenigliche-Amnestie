@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 public class testeMethode2 {
@@ -11,13 +13,12 @@ public class testeMethode2 {
 		
 	testekerkeroeffnen.methodeAusfuehren();
 	
-	assertArrayEquals(10, testekerkeroeffnen.geoeffnet);
+	assertEquals(10, testekerkeroeffnen.geoeffnet);
 	
 	}
 
-	private void assertArrayEquals(int i, int geoeffnet) {
-		// TODO Auto-generated method stub
+	
 		
 	}
 
-}
+
